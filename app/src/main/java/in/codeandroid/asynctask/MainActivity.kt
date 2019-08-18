@@ -50,8 +50,7 @@ class MainActivity : AppCompatActivity() {
                 if (p0[0] != null) {
                     for (i in 0..p0[0]!!) {
                         Thread.sleep(1000)
-                        if (i % 5 == 0)
-                            publishProgress(i)
+                        publishProgress(i)
                     }
                 }
             }
